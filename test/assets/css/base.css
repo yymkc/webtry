@@ -1,0 +1,73 @@
+a:focus {
+    outline: transparent;
+    background-color: transparent;
+
+}
+
+html {
+    font-size: 16px;
+}
+
+html,
+body {
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    min-width: 1050px;
+    max-width: 1920px;
+    background-color: #000;
+    z-index: 0;
+}
+
+section {
+    position: relative;
+    min-height: 950px;
+    max-height: 1080px;
+}
+
+
+.fgo_logo {
+    position: absolute;
+    width: 200px;
+    top: 2%;
+    left: 2%;
+}
+
+div.qrcord {
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    width: 100px;
+    height: 130px;
+    background: url("../img/qr.png") no-repeat left;
+    background-size: contain;
+    transition: .5s;
+    margin: auto;
+ 
+}
+
+div.qrcord:hover{
+    width: 14%;
+    height: 14%;
+    background:url('../img/qr_on.png')no-repeat center;
+    background-size: contain;
+    transition: .5s;
+    z-index:10;
+} 
+
+
+.down {
+    position:absolute;
+    bottom: 40px;
+    left: calc(50% - 32px);
+    z-index: 100;
+     
+}
+
+.button {
+    width: 100%;
+    margin: auto auto;
+    display: block;
+}

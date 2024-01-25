@@ -1,0 +1,879 @@
+.page01{
+    width: 100%;
+    height: 100%;
+    background: url(../img/mb/bg1.jpg) no-repeat center 50%;
+    background-size: cover;
+    position: relative;
+}
+.fgo-logo{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 2%;
+    left: 3%;
+}
+.pic1-top{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    background: url(../img/mb/pic1_top.png) no-repeat top center;
+    background-size: 100%;
+}
+.pic1-bottom{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    background: url(../img/mb/pic1_bottom.png) no-repeat bottom center;
+    background-size: 140%;
+    z-index: 1;
+}
+.st1 {
+    width: 100%;
+    height: 87%;
+    position: absolute;
+    background: url(../img/mb/st1.png) no-repeat top center;
+    background-size: 67%;
+    bottom: 0;
+}
+.btn1-jump{
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background: url(../img/btn1_jump.png) no-repeat center;
+    background-size: contain;
+    right: 5%;
+    bottom: 42%;
+    z-index: 3;
+}
+.main-box {
+    width: 10rem;
+    height: 9rem;
+    position: absolute;
+    bottom: 8%;
+    text-align: center;
+    z-index: 1;
+}
+.slogan{
+    width: 100%;
+    position: relative;
+}
+.btn-box{
+    width: 100%;
+    height: 18%;
+    position: relative;
+    margin: .5% auto;
+}
+.btn-box a{
+    width: 43%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    margin: 0 0.5%;
+}
+.btn1-act{
+    background: url(../img/btn1_act.png) no-repeat center;
+    background-size: contain;
+}
+.btn1-home{
+    background: url(../img/btn1_home.png) no-repeat center;
+    background-size: contain;
+}
+.jump-st .modal-header{
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 2%;
+}
+/* --------------------------------------- */
+.page02{
+    position: relative;
+    width: 100%;
+    height: 200%;
+    background: url(../img/mb/bg2.jpg) no-repeat center;
+    background-size: 109% 104%;
+}
+.part2,.part3{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    padding-top: 12%;
+}
+.pic2-top{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    background: url(../img/mb/pic2_top.png) no-repeat top center;
+    background-size: 113%;
+}
+.title{
+    width: 100%;
+    height: 3rem;
+    position: relative;
+}
+.title2{
+    background: url(../img/title2.png) no-repeat top center;
+    background-size: contain;
+}
+.story{
+    width: 100%;
+    height: 74%;
+    position: relative;
+    display: block;
+    background: url(../img/mb/story.png) no-repeat top center;
+    background-size: contain;
+}
+.btn-down2{bottom: 1%;}
+/* --------------------------------------- */
+.part3{padding-top: 1.5%;}
+.pic3-bottom{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    background: url(../img/mb/pic3_bottom.png) no-repeat bottom center;
+    background-size: 100%;
+}
+.pic3-l{
+    width: 34%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.pic3-r{
+    width: 34%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.title3{
+    background: url(../img/title3.png) no-repeat top center;
+    background-size: contain;
+    z-index: 2;
+}
+.btn3-chbox{
+    width: 3rem;
+    height: 5rem;
+    position: absolute;
+    left: 8%;
+    top: 16%;
+    z-index: 1;
+}
+.btn3-chbox li{
+    width: 100%;
+    height: 45%;
+    position: relative;
+    margin-bottom: 2%;
+}
+.btn3-ch1{
+    background: url(../img/btn3_ch1.png) no-repeat top center;
+    background-size: contain;
+}
+.btn3-ch2{
+    background: url(../img/btn3_ch2.png) no-repeat top center;
+    background-size: contain;
+}
+.btn3-ch1.active{
+    background: url(../img/btn3_ch1_on.png) no-repeat top center;
+    background-size: contain;
+}
+.btn3-ch2.active{
+    background: url(../img/btn3_ch2_on.png) no-repeat top center;
+    background-size: contain;
+}
+.st-box-all{
+    width: 100%;
+    height: 83%;
+    position: relative;
+}
+.st3{
+    width: 100%;
+    height: 89%;
+    position: relative;
+}
+.st3-1{
+    background: url(../img/mb/st3_1.png) no-repeat top center;
+    background-size: contain;
+}
+.st3-2{
+    background: url(../img/mb/st3_2.png) no-repeat top center;
+    background-size: contain;
+}
+.btn3-box{
+    width: 100%;
+    height: 8%;
+    position: relative;
+    text-align: center;
+    margin-top: 1%;
+}
+.btn3-box a{
+    width: 26%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 0 1%;
+}
+.btn3-jump{
+    background: url(../img/mb/btn3_jump.png) no-repeat top center;
+    background-size: contain;
+}
+.btn3-act{
+    background: url(../img/mb/btn3_act.png) no-repeat top center;
+    background-size: contain;
+}
+/* --------------------------------------- */
+.jump-st .modal-dialog,.jump-play .modal-dialog {margin-top: 11%;}
+/*  */
+.carousel-fade .carousel-control {z-index: 2;}
+.pic-jump{width: 78%;}
+.col-md-12{padding: 0;}
+/* end*/
+/* -----------------media----------------- */
+@media screen and (max-width:1024px){
+}
+@media screen and (min-height:1366px) and (max-width:1024px){
+}
+@media screen and (max-width:820px){
+    .page01{max-height: 1180px;}
+    .page02,.page03{max-height: 2048px;}
+    a.carousel-control.right.arrow-right,a.carousel-control.left.arrow-left {
+        width: 53px;
+        height: 54px;
+    }
+    .jump-box .modal-header>.btn-close {
+        width: 1rem;
+        height: 1rem;
+    }
+    .btn-down, .btn-down2{
+        height: 5%;
+        bottom: 0.5%;
+    }
+    .main-box {
+        width: 7rem;
+        height: 6rem;
+    }
+    .btn1-jump {
+        width: 2rem;
+        height: 2rem;
+        right: 1%;
+        bottom: 40%;
+    }
+    .part2{padding-top: 8%;}
+    .title{height: 1.8rem;}
+    .btn3-chbox {
+        width: 1.5rem;
+        height: 4rem;
+    }
+    .story{height: 79%;}
+}
+@media screen and (max-width:820px) and (min-height:1024px){
+    .btn-ham {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    .btn3-chbox {
+        width: 2rem;
+        height: 4.5rem;
+    }
+}
+@media screen and (max-width:820px) and (min-height:1180px){
+    .footer{height: 13%;}
+    .page02,.page03{max-height: 1850px;}
+    .main-box {
+        width: 8rem;
+        height: 7rem;
+    }
+}
+@media screen and (max-width:768px){
+}
+@media screen and (min-height:1024px) and (max-width:768px){
+    .jump-box .modal-header>.btn-close {
+        width: 1rem;
+        height: 1rem;
+    }
+    .footer{height: 15%;}
+}
+@media screen and (max-width:580px){
+    .btn-ham {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .main-box {
+        width: 6rem;
+        height: 5rem;
+    }
+    .btn1-jump {
+        width: 1.5rem;
+        height: 1.5rem;
+        bottom: 54%;
+    }
+    .pic-jump {width: 100%;}
+    .footer{max-height: 120px;}
+}
+@media screen and (max-width:480px){
+    .footer-img{top: 9px;}
+    a.carousel-control.right.arrow-right, a.carousel-control.left.arrow-left {
+        width: 46px;
+        height: 53px;
+    }
+    .fgo-logo {
+        width: 33%;
+        top: 1%;
+        left: 2%;
+    }
+    .btn-ham, #btnGame .modal-header > .btn-close{
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+    .jump-box .modal-header>.btn-close{
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+    .page01{max-height: 950px;}
+    .page02{max-height: 1550px;}
+    .main-box {
+        width: 5rem;
+        height: 4rem;
+    }
+    .btn1-jump {
+        width: 1.2rem;
+        height: 1.2rem;
+        bottom: 44%;
+    }
+    .st1 {
+        position: absolute;
+        background: url(../img/mb/st1.png) no-repeat top center;
+        background-size: 78%;
+    }
+    .title {height: 1.3rem;}
+    .btn3-chbox {
+        width: 1rem;
+        height: 2.5rem;
+        top: 14%;
+    }
+    .btn3-box a {width: 30%;}
+    .story{height: 78%;}
+    .page02 {
+        background: url(../img/mb/bg2.jpg) no-repeat center;
+        background-size: 131% 104%;
+    }
+}
+@media screen and (min-height:709px) and (max-width:450px){
+    .footer{height: 13%;}
+    .btn-ham, #btnGame .modal-header > .btn-close {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    .jump-st .modal-content {width: 100%;}
+    .st-box-all{height: 80%;}
+}
+@media screen and (min-height:714px) and (max-width:450px){
+    .footer{height: 11%;}
+    .st-box-all {height: 75%;}
+}
+@media screen and (min-height:736px) and (max-width:450px){
+    .footer{height: 11%;}
+    .st-box-all{height: 73%;}
+    .page02 {
+        background: url(../img/mb/bg2.jpg) no-repeat center;
+        background-size: 138% 101%;
+    }
+}
+@media screen and (max-width:428px){
+    .page02 {max-height: 1850px;}
+}
+@media screen and (min-height:896px) and (max-width:428px){
+    .jump-st .modal-dialog{margin-top: 33%;}
+    .btn-ham, #btnGame .modal-header > .btn-close {
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+    .footer{height: 12%;}
+    .footer-img {width: 89%;}
+    #myCarousel .carousel-inner {
+        height: 75%;
+        top: 5%;
+    }
+    .st1 {
+        position: absolute;
+        background: url(../img/mb/st1.png) no-repeat top center;
+        background-size: 93%;
+    }
+    .main-box {
+        width: 6rem;
+        height: 5rem;
+    }
+    .btn1-jump {
+        width: 1.5rem;
+        height: 1.5rem;
+        bottom: 43%;
+    }
+    .part2 {padding-top: 25%;}
+    .part3 {padding-top: 18%;}
+    .title {height: 1.6rem;}
+    .story {
+        height: 69%;
+        background: url(../img/mb/story.png) no-repeat top center;
+        background-size: 103%;
+    }
+    .btn3-chbox {
+        width: 1.3rem;
+        height: 3rem;
+        top: 23%;
+        left: 0;
+    }
+    .st3-1 {
+        background: url(../img/mb/st3_1.png) no-repeat top center;
+        background-size: 121%;
+    }
+    .st3-2 {
+        background: url(../img/mb/st3_2.png) no-repeat top center;
+        background-size: 121%;
+    }
+    .st-box-all {height: 79%;}
+    .btn3-box a {width: 37%;}
+    .page02 {
+        background: url(../img/mb/bg2.jpg) no-repeat center;
+        background-size: 158% 101%;
+    }
+}
+@media screen and (min-height:926px) and (max-width:428px){
+    .footer {height: 10%;}
+    .st-box-all {height: 76%;}
+    .btn3-chbox{top: 20%;}
+    .page02 {
+        background: url(../img/mb/bg2.jpg) no-repeat center;
+        background-size: 168% 100%;
+    }
+}
+@media screen and (max-width:411px){
+    .page02{max-height: 1793px;}
+}
+@media screen and (min-height:731px) and (max-width:411px){
+    .jump-st .modal-dialog{margin-top: 23%;}
+    .footer{height: 12%;}
+    .part2 {
+        padding-top: 14%;
+    }
+    .st-box-all {
+        height: 72%;
+        top: 6%;
+    }
+}
+@media screen and (min-height:823px) and (max-width:411px){
+    .jump-st .modal-dialog{margin-top: 32%!important;}
+    .footer{height: 13%;}
+    .page02,.page03 {max-height: 1674px;}
+    .footer {height: 10%;}
+    .st1 {
+        position: absolute;
+        background: url(../img/mb/st1.png) no-repeat top center;
+        background-size: 90%;
+    }
+    .main-box {
+        width: 6rem;
+        height: 5rem;
+    }
+    .part2 {padding-top: 22%;}
+    .title {height: 1.6rem;}
+    .st3-1 {
+        background: url(../img/mb/st3_1.png) no-repeat top center;
+        background-size: 108%;
+    }
+    .st3-2 {
+        background: url(../img/mb/st3_2.png) no-repeat top center;
+        background-size: 108%;
+    }
+    .btn3-chbox {
+        width: 1.5rem;
+        height: 3rem;
+        top: 12%;
+        left: 1%;
+    }
+    .btn3-box a {width: 34%;}
+    .st-box-all {height: 71%;}
+}
+@media screen and (max-width:395px){
+
+}
+@media screen and (min-height:844px) and (max-width:395px){
+    .footer {height: 10%;}
+    .btn-down, .btn-down2 {width: 15%;}
+    .part3 {
+        padding-top: 10.5%;
+    }
+    .btn3-chbox{top: 15%;}
+    .st-box-all {
+        height: 70%;
+        top: 1%;
+    }
+    .st3-1 {
+        background: url(../img/mb/st3_1.png) no-repeat top center;
+        background-size: cover;
+    }
+    .st3-2 {
+        background: url(../img/mb/st3_2.png) no-repeat top center;
+        background-size: cover;
+    }
+}
+@media screen and (max-width:375px){
+    .page01{
+        max-height: 900px;
+        min-height: 568px;
+    }
+    .page02 {min-height: 1136px;}
+    .footer-img {top: 5px;}
+    .btn-ham, #btnGame .modal-header > .btn-close, .jump-box .modal-header>.btn-close {
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+    a.carousel-control.left.arrow-left, a.carousel-control.right.arrow-right {
+        width: 37px;
+        height: 44px;
+    }
+    .main-box {
+        width: 4.5rem;
+        height: 3.5rem;
+    }
+    .title {height: 1rem;}
+    .st-box-all{height: 86%;}
+    .st3-1 {
+        background: url(../img/mb/st3_1.png) no-repeat top center;
+        background-size: 102%;
+    }
+    .st3-2 {
+        background: url(../img/mb/st3_2.png) no-repeat top center;
+        background-size: 102%;
+    }
+}
+@media screen and (min-height:667px) and (max-width:375px){
+    .footer{height: 11%;}
+    .jump-st .modal-dialog {margin-top: 25%;}
+    .title {height: 1.4rem;}
+    .part2 {padding-top: 14%;}
+    .st3-1 {
+        background: url(../img/mb/st3_1.png) no-repeat top center;
+        background-size: 113%;
+    }
+    .st3-2 {
+        background: url(../img/mb/st3_2.png) no-repeat top center;
+        background-size: 113%;
+    }
+    .st-box-all {height: 80%;}
+    .btn3-box a {width: 35%;}
+}
+@media screen and (min-height:812px) and (max-width:375px){
+    .footer{height: 9%;}
+    .fgo-logo {width: 35%;}
+    .jump-st .modal-dialog {margin-top: 35%;}
+    .st1 {
+        position: absolute;
+        background: url(../img/mb/st1.png) no-repeat top center;
+        background-size: 98%;
+    }
+    .main-box {
+        width: 5rem;
+        height: 4rem;
+    }
+    .part2 {padding-top: 22%;}
+    .story {
+        height: 69%;
+        top: 3%;
+    }
+    .btn3-chbox {
+        width: 1.2rem;
+        height: 2.7rem;
+        top: 10%;
+        left: 2%;
+    }
+    .st3-1 {
+        background: url(../img/mb/st3_1.png) no-repeat top center;
+        background-size: 122%;
+    }
+    .st3-2 {
+        background: url(../img/mb/st3_2.png) no-repeat top center;
+        background-size: 122%;
+    }
+    .st-box-all {height: 72%;}
+}
+@media screen and (max-width:360px){
+    .page02 {min-height: 1158px;}
+    .page01{max-height: 750px;}
+    .btn-down, .btn-down2 {width: 12%;}
+    .st-box-all {
+        height: 78%;
+        top: 6%;
+    }
+    .story {
+        height: 80%;
+        background: url(../img/mb/story.png) no-repeat top center;
+        background-size: 103%;
+    }
+}
+@media screen and (min-height:591px) and (max-width:360px){
+
+}
+@media screen and (min-height:640px) and (max-width:360px){
+    .jump-st .modal-dialog{margin-top: 15%;}
+    .footer{height: 14%;}
+    .title {height: 1.3rem;}
+    .part2 {padding-top: 14%;}
+    .st-box-all {height: 72%;}
+    .btn3-box a {width: 32%;}
+}
+@media screen and (min-height:720px) and (max-width:360px){
+    .footer{height: 12%;}
+    .jump-st .modal-dialog {margin-top: 32%;}
+    .btn-ham, #btnGame .modal-header > .btn-close {
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+    .st1 {
+        position: absolute;
+        background: url(../img/mb/st1.png) no-repeat top center;
+        background-size: 89%;
+    }
+    .main-box {
+        width: 5rem;
+        height: 4rem;
+    }
+    .title {height: 1.5rem;}
+    .part2 {padding-top: 19%;}
+    .part3 {padding-top: 5.5%;}
+    .btn3-chbox {
+        width: 1.2rem;
+        height: 2.7rem;
+        left: 5%;
+    }
+    .btn3-box a {width: 34%;}
+    .page02 {
+        background: url(../img/mb/bg2.jpg) no-repeat center;
+        background-size: 151% 100%;
+    }
+}
+@media screen and (max-width:320px){
+    .jump-st {padding: 0 0%!important;}
+    #btnGame .modal-header > .btn-close,.btn-ham, #btnGame .modal-header > .btn-close {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+    .jump-play .modal-header>.btn-close {
+        width: 0.45rem;
+        height: 0.45rem;
+    }
+    .page01,.part2,.part3{
+        min-height: 452px;
+    }
+    .page02 {
+        max-height: 1200px;
+        min-height: 900px;
+    }
+    .jump-st .modal-dialog, .jump-play .modal-dialog {margin-top: 0%;}
+    .btn1-jump {
+        width: 1rem;
+        height: 1rem;
+    }
+    .main-box {
+        width: 3.8rem;
+        height: 2.9rem;
+    }
+    .btn1-jump {
+        width: 0.9rem;
+        height: 0.9rem;
+        bottom: 41%;
+    }
+    .btn-box{height: 20%;}
+    .pic1-bottom{bottom: -1px;}
+    .btn3-chbox {
+        width: 0.8rem;
+        height: 1.9rem;
+        top: 16%;
+    }
+    .st-box-all {
+        height: 83%;
+        top: 0%;
+    }
+    .st3-1 {
+        background: url(../img/mb/st3_1.png) no-repeat top center;
+        background-size: 94%;
+    }
+    .st3-2 {
+        background: url(../img/mb/st3_2.png) no-repeat top center;
+        background-size: 94%;
+    }
+    .story {
+        height: 77%;
+        background: url(../img/mb/story.png) no-repeat top center;
+        background-size: contain;
+    }
+}
+@media screen and (min-height:568px) and (max-width:320px){
+    .footer{height: 14%;}
+    .jump-st .modal-dialog{margin-top: 10%;}
+    a.carousel-control.left.arrow-left, a.carousel-control.right.arrow-right {
+        width: 30px;
+        height: 100%;
+    }
+    .btn-ham, #btnGame .modal-header > .btn-close {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+    .part2 {padding-top: 16%;}
+    .part3 {padding-top: 6.5%;}
+    .btn3-chbox {
+        width: 1.1rem;
+        height: 2.2rem;
+        top: 14%;
+        left: 3%;
+    }
+    .st3-1 {
+        background: url(../img/mb/st3_1.png) no-repeat top center;
+        background-size: 110%;
+    }
+    .st3-2 {
+        background: url(../img/mb/st3_2.png) no-repeat top center;
+        background-size: 110%;
+    }
+    .st-box-all {
+        height: 79%;
+        top: 4%;
+    }
+    .btn3-box a {width: 33%;}
+}
+@media screen and (orientation: landscape) and (max-width:1920px) {
+    body{
+        min-height: 41rem;
+        max-width: 1366px;
+    }
+    a.carousel-control.left.arrow-left,a.carousel-control.right.arrow-right{height: 111px;}
+    .btn-ham,#btnGame .modal-header > .btn-close {
+        width: 3.5rem;
+        height: 3.4rem;
+        top: 4%;
+    }
+}
+@media screen and (orientation: landscape) and (max-width:1366px) {
+    body{
+        min-height: 29rem;
+    }
+    .jump-st .modal-dialog{margin-top: 0%;}
+    a.carousel-control.left.arrow-left, a.carousel-control.right.arrow-right {
+        height: 100%;
+        width: 115px;
+    }
+    .btn-ham, #btnGame .modal-header > .btn-close {
+        width: 2.5rem;
+        height: 2.4rem;
+        top: 4%;
+    }
+    .footer{height: 12%;}
+}
+@media screen and (orientation: landscape) and (max-width:1180px) {
+    .part2{padding-top: 18%;}
+    .part3{padding-top: 8%;}
+    a.carousel-control.left.arrow-left, a.carousel-control.right.arrow-right{width: 58px;}
+    .btn-ham{top: 1%;}
+}
+@media screen and (orientation: landscape) and (max-width:1024px) {
+    .page01, .page02, .page03 {
+        max-height: unset;
+    }
+    body{
+        min-height: 22rem;
+    }
+    .jump-st .modal-header > .btn-close {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .btn-ham, #btnGame .modal-header > .btn-close {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    .footer{height: 14%;}
+    .btn-down, .btn-down2 {
+        width: 7%;
+        height: 4%;
+    }
+    .btn-ham{top: 3%;}
+}
+@media screen and (orientation: landscape) and (max-width:926px) {
+    .btn-ham, #btnGame .modal-header > .btn-close {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+}
+@media screen and (orientation: landscape) and (max-width:896px) {
+    .footer {height: 11%;}
+    .footer-img{height: 80%;}
+}
+@media screen and (orientation: landscape) and (max-width:823px) {
+    body{
+        min-height: 18rem;
+    }
+    .footer-img {height: 80%;}
+    .main-box {
+        width: 9rem;
+        height: 8rem;
+    }
+    .btn1-jump {
+        width: 2rem;
+        height: 2rem;
+        right: 2%;
+    }
+    .title{height: 2rem;}
+}
+@media screen and (orientation: landscape) and (max-width:768px) {
+    body {
+        min-height: 16rem;
+    }
+    .jump-st .modal-header > .btn-close {
+        width: 1rem;
+        height: 1rem;
+    }
+    a.carousel-control.left.arrow-left, a.carousel-control.right.arrow-right {width: 61px;}
+    .footer-img {
+        height: 77%;
+    }
+    .main-box {
+        width: 8rem;
+        height: 6rem;
+    }
+}
+@media screen and (orientation: landscape) and (max-width:736px) {
+    .jump-st .modal-header > .btn-close {
+        width: 1.1rem;
+        height: 1.1rem;
+    }
+    .btn-ham{top: 2%;}
+    .pic-jump {width: 85%;}
+}
+@media screen and (orientation: landscape) and (max-width:680px) {
+    .footer{height: 14%;}
+    .btn-ham, #btnGame .modal-header > .btn-close {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .btn-ham{top: 2%;}
+    .btn1-jump {
+        width: 1.8rem;
+        right: 2%;
+        bottom: 43%;
+    }
+}
+@media screen and (orientation: landscape) and (max-width:570px) {
+    body {
+        min-height: 14rem;
+    }
+    .jump-box .modal-header>.btn-close {
+        width: 1rem;
+        height: 1rem;
+    }
+    .footer {height: 13%;}
+    .btn-down, .btn-down2 {width: 9%;}
+    .main-box {
+        width: 7rem;
+        height: 5rem;
+    }
+}

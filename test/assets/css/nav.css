@@ -1,0 +1,82 @@
+/* --------------nav-------------- */
+.list-group {
+    width: 193px;
+    height: 380px;
+    position: fixed;
+    right: 0%;
+    top: -5%;
+    bottom: 0%;
+    margin: auto 0;
+    z-index: 1;
+    background: url(../img/nav_bg.png) no-repeat right center;
+    background-size: contain;
+    padding: 78px 48px 17px 0%;
+    border: 0;
+}
+
+.nav_list {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav_list li a {
+    width: 8.5rem;
+    height: 50px;
+}
+
+.btn_nav01{
+    background: url('../img/nav1.png') no-repeat center;
+    background-size: contain;
+}
+
+.btn_nav02{
+    background: url('../img/nav2.png') no-repeat center;
+    background-size: contain;
+}
+
+.btn_nav03{
+    background: url('../img/nav3.png') no-repeat center;
+    background-size: contain;
+}
+
+
+.list-group-item, 
+.list-group-item:hover,
+.list-group-item:focus,
+.list-group-item.active
+{
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: transparent;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+.btn_nav01>.list-group-item:hover,
+.btn_nav01>.list-group-item:focus,
+.btn_nav01>.list-group-item.active
+{
+    background: url('../img/nav1_on.png') no-repeat center;
+    background-size: contain;
+}
+.btn_nav02>.list-group-item:hover,
+.btn_nav02>.list-group-item:focus,
+.btn_nav02>.list-group-item.active
+{
+    background: url('../img/nav2_on.png') no-repeat center;
+    background-size: contain;
+}
+.btn_nav03>.list-group-item:hover,
+.btn_nav03>.list-group-item:focus,
+.btn_nav03>.list-group-item.active
+{
+    background: url('../img/nav3_on.png') no-repeat center;
+    background-size: contain;
+}
+
+/* ------------------- */
