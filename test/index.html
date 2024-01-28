@@ -17,11 +17,18 @@
     <link rel=stylesheet type="text/css" href="assets/css/index.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VL295FCFYV"></script>
     <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-VL295FCFYV');
+      gtag('config', 'G-VL295FCFYV');
+
+        window.onload=function AuotOrientate(){
+         if (screen.width >= screen.height ) {
+         document.location.href="https://yymkc.github.io/webtry/test/";
+      } else {
+         document.location.href="https://yymkc.github.io/webtry/test/mobile.html"; 
+      }  
 </script>
 </head>
 
